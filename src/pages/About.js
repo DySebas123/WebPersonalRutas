@@ -4,7 +4,7 @@ function About() {
             <div class="col-lg-6 px-0">
                 <h1 class="display-4 fst-italic">Soy Dylan Ayala</h1>
                 <p class="lead my-3">Estudie</p>
-                <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+                <p class="lead mb-0"><a href="/" class="text-body-emphasis fw-bold">Continue reading...</a></p>
             </div>
         </div>
     );
