@@ -7,24 +7,14 @@ function Contact() {
                     <p className="col-lg-10 fs-4">Que esperas!!!!, estoy buscando CHAMBA</p>
                 </div>
                 <div className="col-md-10 mx-auto col-lg-5">
-                    <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-                        <div className="form-floating mb-3">
-                            <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
-                            <label htmlFor="floatingInput">Correo Electrónico</label>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/>
-                            <label htmlFor="floatingPassword">Contraseña</label>
-                        </div>
-                        <div className="checkbox mb-3">
-                            <label> <input type="checkbox" value="remember-me"/> Recordar </label>
-                        </div>
-                        <button className="w-100 btn btn-lg btn-primary" type="submit">Registrarse</button>
-                        <hr className="my-4"/>
-                        <small className="text-body-secondary">
-                            Al dar clic en "Registrarse", aceptas los términos de uso.
-                        </small>
-                    </form>
+                    <a
+                        href="https://wa.link/p2zic4"
+                        className="w-100 btn btn-lg btn-primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Ingresar a WhatsApp
+                    </a>
                 </div>
             </div>
             <footer className="pt-3 mt-4 text-body-secondary border-top">
