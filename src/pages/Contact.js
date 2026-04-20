@@ -22,11 +22,14 @@ function Contact() {
                         <button className="w-100 btn btn-lg btn-primary" type="submit">Registrarse</button>
                         <hr className="my-4"/>
                         <small className="text-body-secondary">
-                            Al dar clic en Registrar, aceptas los términos de uso.
+                            Al dar clic en "Registrarse", aceptas los términos de uso.
                         </small>
                     </form>
                 </div>
             </div>
+            <footer className="pt-3 mt-4 text-body-secondary border-top">
+                © 2026
+            </footer>
         </div>
     );
 }
