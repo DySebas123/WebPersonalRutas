@@ -11,9 +11,13 @@ function About() {
             </div>
             <div class="p-4 p-md-5 mb-4">
                 <h3>
-                    Me encuentro en el 8vo ciclo de la carrera, aprendo de manera autodidacta con cursos de youtube o de otras páginas, tengo como conocimiento lenguajes de programación como:
+                    Me encuentro en el 8vo ciclo de la carrera, aprendo de manera autodidacta con cursos de youtube o de otras páginas.
                 </h3>
-                <div class="d-flex gap-2 justify-content-center py-5">
+                <br/>
+                <h4>
+                    Tengo como conocimiento de lenguajes de programación en:
+                </h4>
+                <div class="d-flex gap-1 justify-content-center py-5">
                     <span class="badge d-flex p-2 align-items-center text-bg-primary rounded-pill">
                         <span class="px-1">HTML</span>
                     </span>
@@ -40,6 +44,12 @@ function About() {
                     </span>
                     <span class="badge d-flex p-2 align-items-center text-bg-primary rounded-pill">
                         <span class="px-1">n8n</span>
+                    </span>
+                    <span class="badge d-flex p-2 align-items-center text-bg-primary rounded-pill">
+                        <span class="px-1">Php</span>
+                    </span>
+                    <span class="badge d-flex p-2 align-items-center text-bg-primary rounded-pill">
+                        <span class="px-1">SQL Server</span>
                     </span>
                 </div>
             </div>

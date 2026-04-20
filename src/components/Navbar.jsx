@@ -3,32 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="#">DyAyala.ux</a>
-                <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link className="nav-link active" to="/" >Inicio</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/about" >Sobre mí</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/services" >Servicios</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/blog" >Blog</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact" >Contacto</Link>
-                        </li>
-                    </ul>
-                </div>
-                <form class="d-flex">
-                    <input className="form-control me-2" type="search" placeholder="Buscar"/>
-                    <button className="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+        <nav className="my-3 container">
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                    <title>DyAyala.ux</title>
+                    <span class="fs-4">DyAyala.ux</span>
+                </a>
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none"><Link className="nav-link" to="/">Inicio</Link></a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none"><Link className="nav-link" to="/about">Sobre mí</Link></a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none"><Link className="nav-link" to="/services">Servicios</Link></a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none"><Link className="nav-link" to="/blog">Blog</Link></a>
+                    <a class="py-2 link-body-emphasis text-decoration-none"><Link className="nav-link" to="/contact">Contacto</Link></a>
+                </nav>
             </div>
         </nav>
     )
